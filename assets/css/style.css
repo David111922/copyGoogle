@@ -62,7 +62,7 @@ h1 {
  }  
  
  .abstFlower{
-margin-right: 30rem;
+margin-right: 5rem;
 width: 40vw
 
  }
@@ -73,8 +73,12 @@ margin: 30px;
  }
 
  .align-flower{
-margin-left: 40px;
+margin-left: 30px;
 
+
+ }
+ .lips{
+width: 30rem;
 
  }
       
