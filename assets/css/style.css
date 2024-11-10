@@ -1,0 +1,45 @@
+/* * {
+  box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+} */
+
+body {
+    background-color: #007bff;
+    width: 100vw;
+    margin: auto;
+    padding: auto;
+}
+
+.btn {
+  background-color: transparent; /* Remove the blue background */
+  border: none; /* Remove the border */
+  color: black; /* Text color */
+  padding: 5px 10px; /* Optional padding to make the button text look more like a button */
+  font-size: 20px; /* Optional font size */
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: transparent; /* Remove background on hover as well */
+  color: #007bff; /* Optional: Change text color on hover */
+}
+
+
+/* Contenedor para ocupar todo el ancho */ 
+.container {position: relative; width: 100vw; padding: 2rem; background-color: #bc1e1e; } /* Texto responsive */ 
+h1 { width: 100%; font-size: calc(1rem + 10vw); font-weight: bolder; text-align: center; color: #333;}
+
+.dogBall{
+    
+        display: block;
+        margin: 0 auto;
+        width: 80%; /* Optional: adjust the width */
+}
+
+.rabFlower{
+     
+        max-width: 280px;
+        max-height: 280px;
+      }
+      
