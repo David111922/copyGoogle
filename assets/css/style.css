@@ -5,7 +5,7 @@
 } */
 
 body {
-    background-color: #007bff;
+    /* background-color: #007bff; */
     width: 100vw;
     margin: auto;
     padding: auto;
@@ -27,7 +27,7 @@ body {
 
 
 /* Contenedor para ocupar todo el ancho */ 
-.container {position: relative; width: 100vw; padding: 2rem; background-color: #bc1e1e; } /* Texto responsive */ 
+.container {position: relative; width: 100vw; padding: 2rem; } /* Texto responsive */ 
 h1 {
     position: fixed;
     top: 10px; /* Adjust as needed */
