@@ -28,7 +28,18 @@ body {
 
 /* Contenedor para ocupar todo el ancho */ 
 .container {position: relative; width: 100vw; padding: 2rem; background-color: #bc1e1e; } /* Texto responsive */ 
-h1 { width: 100%; font-size: calc(1rem + 10vw); font-weight: bolder; text-align: center; color: #333;}
+h1 {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the text horizontally */
+    font-size: calc(1rem + min(10vw, 10em));
+    font-weight: bolder;
+    text-align: center;
+    color: #333;
+    z-index: 1000;
+  }
+  
 
 .dogBall{
     
@@ -39,7 +50,31 @@ h1 { width: 100%; font-size: calc(1rem + 10vw); font-weight: bolder; text-align:
 
 .rabFlower{
      
-        max-width: 280px;
-        max-height: 280px;
+        width: 300px;
+        height: 380px;
       }
+
+ .basketball{
+    width: 350px;
+    height: 380px;
+    margin-left: 30rem;
+
+ }  
+ 
+ .abstFlower{
+margin-right: 30rem;
+width: 40vw
+
+ }
+ .image-row{
+text-align: center;
+margin: 30px;
+
+ }
+
+ .align-flower{
+margin-left: 40px;
+
+
+ }
       
